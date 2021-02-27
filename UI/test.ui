@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="combo0">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>111</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>By State</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>By County</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>171</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ancestry</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Household Type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Travel Time</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo2_ancest">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>171</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Afghan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Albanian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Alsatian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>American</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Armenian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Assyrian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Austrian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Basque</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Belgian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>British</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bulgarian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cajun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Carpartho-Rusyn</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Celtic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Croatian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cypriot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Czech</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Czechoslovakian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Danish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dutch</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Eastern European</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Estonian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>European</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Finnish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>French</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>French-Canadian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>German</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>German-Russian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Greek</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hungarian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Icelander</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Iranian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Irish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Israeli</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Italian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Latvian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lithuanian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luxembourger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Macedonian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Maltese</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Northern European</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Norwegian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pennsylvania German</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Polish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Portuguese</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Romanian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Russian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Scandinavian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Scotch-Irish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Scottish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Serbian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Slavic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Slovak</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Slovene</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Subsaharan African</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Swedish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Swiss</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Turkish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ukranian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Welsh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>West Indian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yugoslavian</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo3_ancest">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>0</y>
+      <width>181</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Total Ancestry</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Single Ancestry Only</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Multiple Ancestry Only</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="updateButton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>0</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_image">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>801</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo2_travel">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>171</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Under 10 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10-14 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15-19 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20-24 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25-29 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30-34 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>35-44 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>45-59 min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Over 60</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo2_household">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Family</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Family With Children</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Married</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Married With Children</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Male No Wife</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Male No Wife With Children</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Female No Husband</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Female No Husband With Children</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Non-Family</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Non-Family Living Alone</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Non-Family Living Alone Over 65</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>822</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
